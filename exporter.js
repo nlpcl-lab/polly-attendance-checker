@@ -38,4 +38,4 @@ for (row of rows) {
 }
 
 var tsv = tsvHeaders + tsvRows;
-window.location.href = `data:text/tab-separated-values,${tsv}`;
+window.location.href = `data:text/tab-separated-values,${encodeURIComponent(tsv)}`;
