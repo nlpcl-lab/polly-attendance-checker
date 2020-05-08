@@ -21,6 +21,12 @@ def test_run(pyfile):
 
     subprocess.call(['python', pyfile], stdout=stdout, stderr=stderr)
 
+def get_err_stats(cur_dir):
+    errs = list()
+    for student_dir in glob.glob(os.path.join(cur_dir, '*/')):
+        if os.path.getsize(os.path.join(student_dir, 'stderr.txt')) > 0:
+            errs.append(re.search('[0-9]{8}', student_dir, re.IGNORECASE).group())
+
 
 def _main(args):
     pool = Pool(processes=args.multi)
@@ -30,6 +36,10 @@ def _main(args):
             pbar.update()
     pool.close()
     pool.join()
+
+    print('\n' + '-' * 50)
+    for err_studentno in get_err_stats(args.dir):
+        print(err_studentno)
     
     # pool.map(test_run, glob.glob(os.path.join(args.dir, '*.py')))
         
