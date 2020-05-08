@@ -1,0 +1,2 @@
+unzip "*.zip"
+rm *.zip
