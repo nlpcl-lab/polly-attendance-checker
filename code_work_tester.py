@@ -33,7 +33,7 @@ def get_err_stats(cur_dir):
 
 def _main(args):
     pool = Pool(processes=args.multi)
-    pyfiles = glob.glob(os.path.join(args.dir, '*.py'))
+    pyfiles = [x for x in glob.glob(os.path.join(args.dir, '*.py')) if re.search('[0-9]{8}', x, re.IGNORECASE)]
     with tqdm(total=len(pyfiles)) as pbar:
         for _ in tqdm(pool.imap_unordered(test_run, pyfiles)):
             pbar.update()
