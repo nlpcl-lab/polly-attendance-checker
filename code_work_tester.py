@@ -21,6 +21,9 @@ def test_run(pyfile):
 
     subprocess.call(['python', pyfile], stdout=stdout, stderr=stderr)
 
+    stdout.close()
+    stderr.close()
+
 def get_err_stats(cur_dir):
     errs = list()
     for student_dir in glob.glob(os.path.join(cur_dir, '*/')):
