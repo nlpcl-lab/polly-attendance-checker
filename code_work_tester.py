@@ -12,7 +12,6 @@ parser.add_argument('--multi', type=int, default=4)
 parser.add_argument('--dir', type=str, default='./')
 
 def test_run(pyfile):
-    print(pyfile)
     student_no = re.search('[0-9]{8}', pyfile, re.IGNORECASE).group()
     student_path = os.path.join(os.path.dirname(pyfile), student_no)
     os.makedirs(student_path, exist_ok=True)
