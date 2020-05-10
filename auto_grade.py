@@ -10,7 +10,10 @@ def get_stats(cur_dir):
     for student_dir in glob.glob(os.path.join(cur_dir, '*/')):
         if os.path.getsize(os.path.join(student_dir, 'stderr.txt')) > 0:
             with open(os.path.join(student_dir, 'stderr.txt'), 'r') as f:
-                stats.append([student_dir.split('/')[-2], f.read().replace('\n', ' ')])
+                stats.append([student_dir.split('/')[-2],
+                              'X: %s' % f.read().replace('\n', ' ')])
+        else:
+            stats.append([student_dir.split('/')[-2], 'O'])
         
 
 def _main():
