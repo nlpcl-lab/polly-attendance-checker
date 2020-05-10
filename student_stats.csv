@@ -1,0 +1,179 @@
+20130020,O
+20130240,O
+20130362,O
+20130482,O
+20130507,O
+20130514,O
+20140005,"X: Traceback (most recent call last):   File ""./CS372_HW2_code_[20140005].py"", line 152, in <module>     input(""\nPress any key..."") KeyboardInterrupt "
+20140077,O
+20140349,O
+20140407,O
+20140432,O
+20140507,O
+20140550,O
+20140866,"X: Traceback (most recent call last):   File ""./이강현_4120977_assignsubmission_file_CS372_HW2_code_20140866.py"", line 2, in <module>     from textblob import TextBlob ModuleNotFoundError: No module named 'textblob' "
+20150069,O
+20150076,"X: Traceback (most recent call last):   File ""./김경서_4120962_assignsubmission_file_CS372_HW2_code_20150076.py"", line 2, in <module>     from word2number import w2n ModuleNotFoundError: No module named 'word2number' "
+20150150,O
+20150263,"X: ./노경근_4120913_assignsubmission_file_CS372_HW2_code_20150263.py:32: SyntaxWarning: ""is"" with a literal. Did you mean ""==""?   if some[0][1] is 'RB': "
+20150361,O
+20150420,O
+20150441,O
+20150592,O
+20150608,O
+20150860,O
+20150893,O
+20160580,O
+20160832,O
+20170305,O
+20170660,O
+20180154,O
+20180944,O
+20180163,O
+20180177,O
+20180257,O
+20180265,O
+20180269,O
+20180310,O
+20180333,O
+20180337,O
+20180368,O
+20180414,"X: ./유환석_4121010_assignsubmission_file_CS372_HW2_code_20180414.py:109: SyntaxWarning: ""is"" with a literal. Did you mean ""==""?   if count is 100: "
+20180430,O
+20180442,O
+20180509,"X: Traceback (most recent call last):   File ""./이준호_4121025_assignsubmission_file_CS372_HW2_code_20180509.py"", line 9, in <module>     sample_intensifier=set(vader.BOOSTER_DICT) AttributeError: module 'nltk.sentiment.vader' has no attribute 'BOOSTER_DICT' "
+20180526,O
+20180543,O
+20180555,O
+20180601,"X:   File ""./정세아_4120949_assignsubmission_file_CS372_HW2_code_20180601.py"", line 1     mport nltk, re, pprint           ^ SyntaxError: invalid syntax "
+20180604,X: sh: 1: cls: not found 
+20180608,O
+20180632,O
+20180672,O
+20180711,X: [nltk_data] Downloading package gutenberg to /home/g40n/nltk_data... [nltk_data]   Package gutenberg is already up-to-date! [nltk_data] Downloading package brown to /home/g40n/nltk_data... [nltk_data]   Package brown is already up-to-date! [nltk_data] Downloading package sentiwordnet to [nltk_data]     /home/g40n/nltk_data... [nltk_data]   Package sentiwordnet is already up-to-date! [nltk_data] Downloading package wordnet to /home/g40n/nltk_data... [nltk_data]   Package wordnet is already up-to-date! [nltk_
+20180730,O
+20180745,O
+20180755,"X: Traceback (most recent call last):   File ""/home/g40n/anaconda3/envs/cs372/lib/python3.8/site-packages/urllib3/connection.py"", line 159, in _new_conn     conn = connection.create_connection(   File ""/home/g40n/anaconda3/envs/cs372/lib/python3.8/site-packages/urllib3/util/connection.py"", line 84, in create_connection     raise err   File ""/home/g40n/anaconda3/envs/cs372/lib/python3.8/site-packages/urllib3/util/connection.py"", line 74, in create_connection     sock.connect(sa) ConnectionRefusedError: [Errno 1"
+20180804,O
+20180806,O
+20180815,O
+20180848,O
+20180853,O
+20180854,O
+20180863,O
+20180872,O
+20160600,"X: Traceback (most recent call last):   File ""./정재원_4120936_assignsubmission_file_CS372_HW2_code_20160600.py"", line 30, in <module>     my_stopwords = {w[0] for w in ptag(stopwords.words(""English"")) if 'VB' in w[1]}   File ""/home/g40n/anaconda3/envs/cs372/lib/python3.8/site-packages/nltk/corpus/reader/wordlist.py"", line 23, in words     for line in line_tokenize(self.raw(fileids))   File ""/home/g40n/anaconda3/envs/cs372/lib/python3.8/site-packages/nltk/corpus/reader/wordlist.py"", line 32, in raw     retur"
+20160611,O
+20160625,O
+20160626,O
+20160632,O
+20160638,O
+20160648,O
+20160650,O
+20160655,O
+20160668,O
+20160688,O
+20160696,O
+20160697,"X: Traceback (most recent call last):   File ""./허미나_4121022_assignsubmission_file_CS372_HW2_code_20160697.py"", line 140, in <module>     if(len(words) > 1 and similars_exist(words)):   File ""./허미나_4121022_assignsubmission_file_CS372_HW2_code_20160697.py"", line 81, in similars_exist     if(is_similar(pair[0], pair[1], wordnet.ADJ, wordnet.ADJ)):   File ""./허미나_4121022_assignsubmission_file_CS372_HW2_code_20160697.py"", line 52, in is_similar     return s1.wup_similarity(s2) > 0 TypeError: '>' not support"
+20160715,O
+20160738,O
+20160793,O
+20160809,O
+20160811,O
+20160830,O
+20180948,O
+20190046,O
+20190071,O
+20190146,"X:    0%|          | 0/57340 [00:00<?, ?it/s]   2%|▏         | 885/57340 [00:00<00:06, 8843.07it/s]   4%|▎         | 2069/57340 [00:00<00:05, 9569.40it/s]   5%|▍         | 2764/57340 [00:00<00:06, 8596.67it/s]   7%|▋         | 3738/57340 [00:00<00:06, 8906.29it/s]   8%|▊         | 4808/57340 [00:00<00:05, 9375.47it/s]  10%|█         | 5901/57340 [00:00<00:05, 9740.65it/s]  13%|█▎        | 7310/57340 [00:00<00:04, 10729.33it/s]  15%|█▍        | 8355/57340 [00:00<00:04, 10528.81it/s]  16%|█▋        | 9390/57340 "
+20190263,O
+20190299,O
+20190480,"X:    0%|          | 0/328485 [00:00<?, ?it/s]   0%|          | 1/328485 [00:01<181:24:49,  1.99s/it]   0%|          | 24/328485 [00:02<127:09:16,  1.39s/it]   0%|          | 253/328485 [00:02<88:57:32,  1.02it/s]   0%|          | 786/328485 [00:02<62:10:31,  1.46it/s]   0%|          | 1091/328485 [00:02<43:29:28,  2.09it/s]   0%|          | 1390/328485 [00:02<30:25:32,  2.99it/s]   1%|          | 1759/328485 [00:02<21:16:56,  4.26it/s]   1%|          | 2158/328485 [00:02<14:53:10,  6.09it/s]   1%|          | "
+20190535,O
+20190749,O
+20190883,O
+20196507,O
+20206028,O
+20206033,O
+20206113,O
+20170338,O
+20170340,O
+20170354,O
+20170357,O
+20170367,O
+20170396,O
+20170410,O
+20170436,O
+20170441,O
+20170473,"X: unable to import 'smart_open.gcs', disabling that module "
+20170483,O
+20170489,O
+20170490,O
+20170499,O
+20170516,O
+20170522,O
+20170552,O
+20170555,O
+20170599,O
+20170634,X: [nltk_data] Downloading package gutenberg to /home/g40n/nltk_data... [nltk_data]   Package gutenberg is already up-to-date! [nltk_data] Downloading package brown to /home/g40n/nltk_data... [nltk_data]   Package brown is already up-to-date! [nltk_data] Downloading package rte to /home/g40n/nltk_data... [nltk_data]   Package rte is already up-to-date! [nltk_data] Downloading package punkt to /home/g40n/nltk_data... [nltk_data]   Package punkt is already up-to-date! [nltk_data] Downloading package averaged_per
+20160009,O
+20160013,O
+20160025,O
+20160034,O
+20160073,"X: Traceback (most recent call last):   File ""./김단우_4121008_assignsubmission_file_CS372_HW2_code_20160073.py"", line 11, in <module>     import winsound ModuleNotFoundError: No module named 'winsound' "
+20160156,"X: Traceback (most recent call last):   File ""./김주연_4120915_assignsubmission_file_CS372_HW2_code_20160156.py"", line 5, in <module>     from nltk.sentiment.vader import BOOSTER_DICT, SentimentIntensityAnalyzer ImportError: cannot import name 'BOOSTER_DICT' from 'nltk.sentiment.vader' (/home/g40n/anaconda3/envs/cs372/lib/python3.8/site-packages/nltk/sentiment/vader.py) "
+20160174,O
+20160216,"X: Traceback (most recent call last):   File ""./류이안_4121019_assignsubmission_file_CS372_HW2_code_20160216.py"", line 14, in <module>     boost_adv=nltk.sentiment.vader.BOOSTER_DICT #list of special adverbs AttributeError: module 'nltk.sentiment.vader' has no attribute 'BOOSTER_DICT' "
+20160220,O
+20160242,O
+20160254,O
+20160255,O
+20160285,O
+20160288,O
+20160331,"X: Traceback (most recent call last):   File ""./신성우_4120966_assignsubmission_file_CS372_HW2_code_20160331.py"", line 61, in <module>     booster = vader.BOOSTER_DICT AttributeError: module 'nltk.sentiment.vader' has no attribute 'BOOSTER_DICT' "
+20160351,O
+20160379,O
+20160413,"X:    0%|          | 0/11856 [00:00<?, ?it/s]   0%|          | 4/11856 [00:00<13:41, 14.42it/s]   1%|          | 75/11856 [00:00<09:36, 20.42it/s]   1%|          | 141/11856 [00:00<06:46, 28.79it/s]   2%|▏         | 192/11856 [00:00<04:50, 40.14it/s]   2%|▏         | 257/11856 [00:00<03:27, 55.86it/s]   3%|▎         | 305/11856 [00:00<02:32, 75.96it/s]   3%|▎         | 353/11856 [00:00<01:53, 100.98it/s]   4%|▎         | 423/11856 [00:00<01:24, 135.78it/s]   4%|▍         | 523/11856 [00:01<01:01, 183.30it/s]  "
+20160444,"X: Traceback (most recent call last):   File ""./이동연_4121001_assignsubmission_file_CS372_HW2_code_20160444.py"", line 239, in <module>     main()   File ""./이동연_4121001_assignsubmission_file_CS372_HW2_code_20160444.py"", line 207, in main     adj, adv, dt, first_word_dict = filter_compounds(compounds) ValueError: not enough values to unpack (expected 4, got 2) "
+20160458,O
+20160487,O
+20160495,"X: Traceback (most recent call last):   File ""./이재영_4120993_assignsubmission_file_CS372_HW2_code_20160495.py"", line 51, in <module>     result = extract(V,token)   File ""./이재영_4120993_assignsubmission_file_CS372_HW2_code_20160495.py"", line 30, in extract     pairs(v,token,pair)   File ""./이재영_4120993_assignsubmission_file_CS372_HW2_code_20160495.py"", line 24, in pairs     pairs(v,token[token.index(v)+2:],pair)   #recursively call pairs for next remaining tokens   File ""./이재영_4120993_assignsubmis"
+20160545,O
+20160560,O
+20160579,O
+20160837,O
+20160843,O
+20160847,O
+20160871,O
+20160888,O
+20170004,O
+20170060,O
+20170111,O
+20170137,O
+20170148,O
+20170149,"X: ./김재우_4120865_assignsubmission_file_CS372_HW2_code_20170149.py:122: SyntaxWarning: ""is not"" with a literal. Did you mean ""!=""?   if freq is not 0: "
+20170153,O
+20170155,O
+20170168,O
+20170204,O
+20170221,O
+20170248,O
+20170278,"X: Traceback (most recent call last):   File ""./박종찬_4120960_assignsubmission_file_CS372_HW2_code_20170278.py"", line 36, in <module>     main(sys.argv[1]) # This code needs argument, gutenberg corpus name ex) austen-emma.txt IndexError: list index out of range "
+20170292,O
+20170736,"X:   File ""./홍지승_4120990_assignsubmission_file_CS372_HW2_code_20170736.py"", line 60     print res[:100]           ^ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(res[:100])? "
+20170741,O
+20170752,"X: Traceback (most recent call last):   File ""./Kunduz Baryktabasova_4120939_assignsubmission_file_CS372_HW2_code_20170752.py"", line 6, in <module>     bigram_measures = nltk.collocations.BigramAssocMeasures() NameError: name 'nltk' is not defined "
+20170772,O
+20170777,X: [nltk_data] Downloading package wordnet to /home/g40n/nltk_data... [nltk_data]   Package wordnet is already up-to-date! 
+20170798,O
+20170818,O
+20170846,O
+20170879,O
+20170897,X: [nltk_data] Downloading package stopwords to /home/g40n/nltk_data... [nltk_data]   Package stopwords is already up-to-date! 
+20170906,O
+20180037,"X: Traceback (most recent call last):   File ""./금성호_4121034_assignsubmission_file_CS372_HW2_code_20180037.py"", line 60, in <module>     af = FreqDist(all_words) NameError: name 'FreqDist' is not defined "
+20180063,O
+20180111,O
+20180112,O
+20180127,O
+20180131,O
+20180149,O
