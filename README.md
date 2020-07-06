@@ -20,3 +20,13 @@ pip install tqdm
 6. ImportError의 경우, 해당 라이브러리들을 환경에 설치한 후에 3~5번 과정을 다시 진행합니다.
 
 7. `code_work_tester.py`와 `auto_grade.py`의 경우 `--dir` argument를 이용하여, 같은 폴더가 아니어도 채점을 진행할 수 있습니다.
+
+## HW#5
+```bash
+python assign5_tester.py --gold_tsv gap-test.tsv --multi 8 --input_dir example --output_dir data
+```
+
+After first execution:
+```bash
+python assign5_tester.py --gold_tsv gap-test.tsv --multi 8 --input_dir example --output_dir data --cache
+```

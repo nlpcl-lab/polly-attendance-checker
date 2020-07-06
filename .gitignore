@@ -1,2 +1,6 @@
 data/*
 example/*
+*.pyc
+*.log
+*.pkl
+*.tsv
